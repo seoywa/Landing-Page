@@ -1,0 +1,161 @@
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0 20px;
+}
+
+.navy {
+    background-color:#1f2937;
+    padding:20px 50px;
+}
+
+.header {
+    margin:0;
+    padding:0 0 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px ;
+    color:#f9faf8;
+}
+
+.awesome-container {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:20px 0;
+    margin-right: 5px;
+}
+
+.awesome {
+    font-size: 34px;
+    font-weight: extra-bold;
+    color:#f9faf8;
+}
+
+.trees {
+    flex:1;
+}
+
+.figure {
+    display: flex;
+}
+
+
+ul {  
+    list-style-type: none;
+    display:flex;
+    align-items: center;
+    gap:16px;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    gap:32px;
+}
+
+.infoheader {text-align: center;}
+
+.square {
+    height:100px;
+    width:100px;
+    object-fit:cover;
+    border: 0;
+    border-radius:10px;
+}
+
+.secondary {margin:10px 0;}
+
+a, .secondary {
+    font-size: 12px;
+    color:#e5e7eb;
+}
+
+a {  text-decoration:none; }
+
+button, .bluebox {
+    background-color: #3882f6;
+}
+
+.info {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgtext {
+    width: 100px;
+    font-size:10px;
+    padding: 5px 0;
+    text-align: justify;
+}
+
+.infoheader {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color:#1f2937;
+}
+
+.white {margin-bottom: 50px;}
+
+.grey {
+    background-color: #e5e7eb;
+    padding: 50px;
+
+}
+.quote {
+    font-size:30px;
+    font-style: italic;
+    color:#1f2937;
+}
+.person {text-align: end;}
+
+.callcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color:#f9faf8;
+}
+
+.calltext {font-size: 10px;}
+
+.bluebox {
+    padding:20px 40px;
+    display:flex;
+    justify-content: space-between;
+    border: 0;
+    border-radius: 10px;
+    margin:50px;
+    display:flex;
+}
+
+.up {    
+    align-self: left;
+    border:0;
+    width:120px;
+}
+
+button {    
+    padding: 10px 10px;
+    color:#e5e7eb;
+    border-radius: 10px;
+}
+
+.down {
+    border-color:#e5e7eb;
+    height: 40px;
+    width:120px;
+}
+
+footer {
+    padding:20px;
+    font-size:10px;
+    text-align: center;
+    background-color: #1f2937;
+    color:#f9faf8;
+}
+
